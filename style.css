@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 :root{
     
-    --cor-principal:#8973df91;
-    --cor-secundaria:#3ae7ed6e;
-    --cor-texto:#bda0e2;
-    --cor-de-fundo:#7089cf;
+    --cor-principal:#2400b391;
+    --cor-secundaria:#0d72236e;
+    --cor-texto:#05530b;
+    --cor-de-fundo:#5373cc;
     --font:"Indie Flower";
 }
 body{
