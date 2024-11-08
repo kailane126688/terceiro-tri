@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 :root{
     
-    --cor-principal:#bcb5da91;
-    --cor-secundaria:#b9e2c26e;
-    --cor-texto:#7bd882;
-    --cor-de-fundo:#5373cc;
+    --cor-principal:#73f0a391;
+    --cor-secundaria:#06945eb0;
+    --cor-texto:#023015;
+    --cor-de-fundo:#fd9ef8;
     --font:"Indie Flower";
+    --bg-color: rgb(119, 0, 0);
+
 }
 body{
     background-color: var(--cor-principal);
@@ -35,7 +37,31 @@ nav a {
     font-size: 1.2rem;
 }
 nav a:hover{
-    text-decoration:underline;
-    transform: scale(2.90);
+    text-decoration: underline;
+    transform: scale(0.90);
     transition: transform 0.1s;
+}
+.graficos-container {
+    margin: 5rem; 
+}
+.graficos-container_texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    --cor-principal:#8973df91;
+    border: var(--cor-principal) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--cor-secundaria); 
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var (--cor-principal);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
 }
